@@ -7,6 +7,7 @@ body{
     min-height: 100vh;
     width: 100%;
     background-color: rgb(237, 242, 243);
+  
 }
 nav ul li {
     text-decoration:overline; 
@@ -17,6 +18,8 @@ nav ul li {
     font-size: 20px;
     
 }
+
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -71,9 +74,10 @@ nav ul li {
         width: 90%;
       
        }
+      
         .column2{
        margin-left: 150px;
-       border: solid 2px rgb(210, 248, 253);
+       border: solid 2px rgb(215, 227, 230);
        width: 500px;
          height: 500px;
        border-radius: 50%;
@@ -87,6 +91,7 @@ nav ul li {
     display: flex;
     padding:70px;
     height: 60px;
+    
  }
  .heading2{
      display: flex;
@@ -123,6 +128,7 @@ nav ul li {
     width: 100%;
     height: 950px;
     background-color: rgb(248,254,255);
+    
 }
 img{
     margin-left: 0px;
@@ -155,22 +161,29 @@ img{
         display: flex;
         background-color: rgb(210, 224, 226);
         height: 500px;
+        
     }
     .side-section {
     padding: 40px;
    
     }
     .side-section p{
-        font-size: 18px;
-        color: #84879e;
+        font-size: 16px;
+        color: #828497;
+        margin-top: 2%;
         
     }
+    .side-section button{
+        margin-top: -1%;
+
+    }
     .image1{
-        background-color: #cfe4e7;
+       
         margin:50px;
         border-radius: 10px;
-      
-    }
+        margin-right: 8%;
+        
+       }
    
      .sec-3{
         height: 800px;
@@ -234,9 +247,11 @@ img{
       .inner-box{
           margin: 40px;
           padding-left: 40px;
+         
       }
       .cards-3{
         display:flex;
+        
     }
     #img-1, #img-2, #img-3{
         margin: 40px;  
@@ -288,14 +303,15 @@ img{
             border-radius: 10px;
         }
         #button{
-            margin-left: 250px;
-            padding-top: -20px;
-            width: 160px;
-            height: 90px;
-            font-weight: 600px;
+            margin-left: -150px;
+            padding-top: -15px;
+            width: 140px;
+            height: 60px;
+           
            
         }
-      
+    
+     
         .low{
             background-color: #f8feff;
         
@@ -305,6 +321,24 @@ img{
         .low h3{
             padding: 10px;
         }
+        .subscribe-1 button{
+          
+         margin-left: 50;
+         padding: -5%;
+           
+          
+         
+        }
+        .subscribe-1 input{
+            padding:30px;
+            width:50%;
+            margin-left: 60px;
+          
+
+           
+            
+        }
+       
         .footer-content{
             display:flex;
         }
